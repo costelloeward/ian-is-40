@@ -1,0 +1,86 @@
+body {
+  background-color: midnightblue;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 6rem;
+}
+
+h2 {
+  color: yellow;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+/* Balloons */
+.forty {
+  color: midnightblue;
+  font-size: 4rem;
+}
+.forty-box {
+  background-color: yellow;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 3rem;
+  padding: 1rem;
+}
+.forty-desk-box {
+  background-color: yellow;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 3rem;
+  padding: 1rem;
+}
+@media (max-width:1028px)
+ {.forty-desk-box{
+  display: none;
+ }
+
+}
+
+/* carousel */
+#ian-carousel {
+  margin: 2rem 0 2rem 0;
+}
+.control{
+  color: yellow;
+}
+.highlights {
+  color: white;
+  font-size: 4rem;
+}
+.ian {
+  height: 20rem;
+}
+/* Side gifs */
+.left-coat-gif {
+  position: absolute;
+  left: 0;
+  top: 65rem;
+  width: 20%;
+}
+
+.right-coat-gif {
+  position: absolute;
+  right: 0;
+  top: 65rem;
+  width: 20%;
+}
+
+@media(max-width:1028px) {
+  .left-coat-gif {
+    margin-right: 1rem;
+    position: static;
+    width:40%;
+  }
+
+  .right-coat-gif {
+    margin-left: 1rem;
+    position:static;
+      width:40%;
+  }
+}
